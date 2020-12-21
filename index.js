@@ -12,8 +12,8 @@ const prefix = '>';
 const adminPrefix = "a>";
 
 // "Custom" NodeJS Modules
-const mongo = require('./external/mongo')
-const welcome = require('./external/welcome')
+// const mongo = require('./external/mongo')
+// const welcome = require('./external/welcome')
 
 client.on('ready', async () => {
     console.log(`Ouch, ready to accept commands as ${client.user.tag}`)
