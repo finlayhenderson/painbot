@@ -107,4 +107,4 @@ client.on('guildMemberAdd', member => {
     channel.send(`Say hello to ${member}!`);
 })
 
-client.login(config.TOKEN)
+client.login(process.env.TOKEN)
