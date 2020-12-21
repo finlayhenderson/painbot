@@ -6,8 +6,8 @@ const client = new Discord.Client();
 const covid = require('novelcovid');
 
 // Bot settings
-const colors = require('./config/colors.json')
-const config = require('./config.json');
+//const colors = require('./config/colors.json')
+//const config = require('./config.json');
 const prefix = '>';
 const adminPrefix = "a>";
 
@@ -80,7 +80,6 @@ client.on('message', async msg => {
     if (msg.content === `${adminPrefix}help`) {
         msg.channel.send(new Discord.MessageEmbed()
          .setTitle('Admin Commands')
-         .setColor(colors.BLUE)
          .addField('Admin CMD', `Shows this menu`)
         )
     }
