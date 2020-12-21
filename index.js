@@ -18,15 +18,15 @@ const welcome = require('./external/welcome')
 client.on('ready', async () => {
     console.log(`Ouch, ready to accept commands as ${client.user.tag}`)
 
-    await mongo().then(mongoose => {
-        try {
-            console.log('Connected to Mongo!')
-        } finally {
-            mongoose.connection.close()
-        }
-    })
+//     await mongo().then(mongoose => {
+//         try {
+//             console.log('Connected to Mongo!')
+//         } finally {
+//             mongoose.connection.close()
+//         }
+//     })
 
-    welcome(client)
+//     welcome(client)
 })
 
 client.on('message', async msg => {
