@@ -1,0 +1,26 @@
+{
+  "name": "painbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finlayhenderson/painbot.git"
+  },
+  "author": "Finlay Henderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finlayhenderson/painbot/issues"
+  },
+  "homepage": "https://github.com/finlayhenderson/painbot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.11.7",
+    "novelcovid": "^3.0.0"
+  }
+}
